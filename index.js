@@ -2,13 +2,10 @@
 const express = require('express')
 const app = express()
 const fs = require('fs')
-const bcrypt = require('bcrypt')
 app.listen(8080)
 app.use(express.json())
 app.set('view-engine', 'ejs')
-const accountSid = 'ACa526997f160fe26aed7c48e8666c642c';
-const authToken = 'f4671a7c3d6efaa1217c7ab8b24c5e52';
-const client = require('twilio')(accountSid, authToken);
+
 const users = []
 app.get('/users', (req, res) => {
     res.render('userregister.ejs')
