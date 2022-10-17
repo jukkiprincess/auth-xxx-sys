@@ -1,0 +1,12 @@
+{
+    "user_sending": {
+        "name": "Kathy <3",
+        "uid": "Kath",
+        "message": "Hi sis <3!"
+    },
+    "user_receiving": {
+        "name": "Lizzy :3",
+        "uid": "Liz",
+        "response": "Ooo~ Hello Darling"
+    }
+}
